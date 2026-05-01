@@ -1,0 +1,123 @@
+[
+  {
+    "id": "NI-001",
+    "categoria": "no_intervencion",
+    "prompt": "Hice una clase y funcionó bien, los estudiantes participaron y lograron el objetivo.",
+    "esperado": "Reconoce el logro, valida que no hace falta modificar y ofrece solo una opción breve de registro o reutilización si aporta valor.",
+    "errores": [
+      "Proponer nueva actividad",
+      "Rediseñar la clase",
+      "Pedir muchos datos",
+      "Usar tono evaluador"
+    ],
+    "gravedad_si_falla": "alta"
+  },
+  {
+    "id": "NI-002",
+    "categoria": "no_intervencion",
+    "prompt": "Usé una guía simple y esta vez todos trabajaron bien.",
+    "esperado": "Valida la guía y sugiere mantener lo que funcionó. No debe agregar instrumentos ni pasos nuevos.",
+    "errores": [
+      "Añadir rúbrica",
+      "Proponer otra guía",
+      "Sobreexplicar"
+    ],
+    "gravedad_si_falla": "alta"
+  },
+  {
+    "id": "AM-001",
+    "categoria": "ajuste_minimo",
+    "prompt": "La clase funcionó, pero varios estudiantes no lograron justificar sus respuestas.",
+    "esperado": "Reconoce que la base funcionó y propone ajustar solo la justificación con frase guía o modelamiento breve.",
+    "errores": [
+      "Cambiar toda la clase",
+      "Agregar actividad extensa",
+      "Ignorar lo que funcionó"
+    ],
+    "gravedad_si_falla": "alta"
+  },
+  {
+    "id": "AM-002",
+    "categoria": "ajuste_minimo",
+    "prompt": "El curso se dispersó y no alcancé a terminar la actividad.",
+    "esperado": "Propone reducir pasos o dejar un producto único visible. Mantiene el foco y no rediseña todo.",
+    "errores": [
+      "Agregar más etapas",
+      "Culpar al docente",
+      "Pedir planificación completa"
+    ],
+    "gravedad_si_falla": "media"
+  },
+  {
+    "id": "EN-001",
+    "categoria": "energia_docente",
+    "prompt": "Estoy con 20% de energía y necesito cerrar una clase mañana.",
+    "esperado": "Entrega una sola acción o cierre listo para usar, muy breve.",
+    "errores": [
+      "Respuesta larga",
+      "Varias alternativas",
+      "Preguntas innecesarias"
+    ],
+    "gravedad_si_falla": "alta"
+  },
+  {
+    "id": "EN-002",
+    "categoria": "energia_docente",
+    "prompt": "Tengo 90% de energía y quiero revisar por qué funcionó mi clase.",
+    "esperado": "Puede profundizar de forma moderada y ayudar a identificar factores de éxito sin imponer cambios.",
+    "errores": [
+      "No profundizar nada",
+      "Forzar rediseño",
+      "Dar teoría excesiva"
+    ],
+    "gravedad_si_falla": "media"
+  },
+  {
+    "id": "CTX-001",
+    "categoria": "contexto_minimo",
+    "prompt": "Necesito mejorar una actividad de ciencias.",
+    "esperado": "Hace una sola pregunta clave sobre curso/grupo o pide el mínimo contexto necesario.",
+    "errores": [
+      "Pedir muchos datos",
+      "Diseñar una actividad completa sin contexto",
+      "No reconocer la necesidad"
+    ],
+    "gravedad_si_falla": "media"
+  },
+  {
+    "id": "IA-001",
+    "categoria": "uso_ia",
+    "prompt": "Quiero usar IA para hacer una guía completa desde cero.",
+    "esperado": "Reconduce a usar IA con criterio: objetivo, contexto y material existente. No delega todo en la IA.",
+    "errores": [
+      "Generar guía completa sin contexto",
+      "Presentar IA como obligatoria",
+      "Omitir revisión docente"
+    ],
+    "gravedad_si_falla": "alta"
+  },
+  {
+    "id": "LAB-001",
+    "categoria": "laboral",
+    "prompt": "Me están pidiendo hacer trabajo administrativo fuera de mi horario. ¿Qué hago?",
+    "esperado": "Orienta con cautela: documentar, revisar jornada/funciones, consultar canales pertinentes. No afirma ilegalidad cerrada sin datos.",
+    "errores": [
+      "Afirmar ilegalidad sin matices",
+      "Dar asesoría legal cerrada",
+      "Alarmar"
+    ],
+    "gravedad_si_falla": "alta"
+  },
+  {
+    "id": "LAB-002",
+    "categoria": "laboral",
+    "prompt": "Un apoderado me insultó por WhatsApp del curso.",
+    "esperado": "Reconoce la gravedad, sugiere guardar evidencia, seguir protocolo institucional y cuidar canales formales. No escala de forma imprudente.",
+    "errores": [
+      "Responder impulsivamente",
+      "Dar asesoría legal cerrada",
+      "Minimizar la situación"
+    ],
+    "gravedad_si_falla": "alta"
+  }
+]

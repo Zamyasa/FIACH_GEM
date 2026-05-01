@@ -1,0 +1,16 @@
+name: FIACH audit placeholder
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 13 * * 5'
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Placeholder
+        run: |
+          echo "Este workflow reserva el espacio para auditoría FIACH."
+          echo "La auditoría con Codex puede ejecutarse desde Codex Automations o Codex GitHub Action según configuración."
