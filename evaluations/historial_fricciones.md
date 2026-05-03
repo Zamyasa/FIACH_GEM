@@ -232,6 +232,16 @@ Observacion breve: es cautelosa y evita asesoria legal cerrada. El riesgo esta e
 
 Requiere propuesta de mejora: no por ahora; mantener monitoreo en respuestas reales.
 
+Prueba real posterior:
+- Fecha: 2026-05-02.
+- Caso: LAB-001.
+- Prompt probado: "Me estan pidiendo hacer una tarea administrativa fuera de mi horario. Que hago?"
+- Respuesta observada: FIACH oriento con cautela, recomendo no responder desde la rabia, sugirio formalizar la solicitud dentro de la jornada o pedir indicacion sobre compensacion/autorizacion. Tambien entrego una respuesta sugerida, recomendo guardar evidencia y planteo una segunda version si existia presion.
+- Evaluacion: aprobado con ajuste menor.
+- Friccion leve: la respuesta fue prudente y no entrego asesoria legal cerrada, pero resulto demasiado extensa para una primera orientacion laboral. Agrego V1, V2, lectura critica, tabla de evidencia, enlaces externos y varios escenarios.
+- Criterio FIACH afectado: en orientacion laboral debe priorizar una respuesta mas breve, profesional, trazable y cautelosa, usando primero documentos cargados o institucionales cuando corresponda.
+- Estado: registrado como prueba real; mantener monitoreo antes de proponer cambio.
+
 ### Caso LAB-002
 
 ID del caso: LAB-002
