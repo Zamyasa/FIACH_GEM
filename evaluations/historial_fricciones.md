@@ -277,3 +277,21 @@ Fricciones detectadas:
 Recomendacion:
 - Preparar una propuesta minima para modular la pregunta de energia sin eliminarla.
 - No modificar instrucciones hasta aprobacion humana explicita.
+
+## 2026-05-02 - Pruebas reales adicionales
+
+### Caso TEMP-001
+
+ID del caso: TEMP-001
+
+Prompt probado: "Necesito organizar una evaluacion para esta semana, pero tengo poco tiempo."
+
+Respuesta observada: FIACH reconocio la necesidad de resolver rapido, propuso una evaluacion minima viable para la semana, sugirio evaluar solo lo esencial del objetivo, usar tres partes breves y corregir con tres criterios simples. No invento fechas ni armo una planificacion extensa.
+
+Evaluacion: aprobado con ajuste menor.
+
+Friccion leve: la respuesta priorizo y redujo carga, pero no activo plenamente la temporalidad. Dado que el docente dijo "esta semana", FIACH pudo preguntar solo lo minimo por la fecha exacta o diferenciar entre evaluacion para manana y evaluacion para mas adelante en la semana.
+
+Criterio FIACH afectado: temporalidad FIACH para contextualizar, priorizar y reducir carga sin inventar fechas ni horarios.
+
+Estado: registrado como prueba real; mantener monitoreo antes de proponer cambio.
