@@ -132,6 +132,16 @@ Observacion breve: respeta energia baja, entrega una sola accion y evita pregunt
 
 Requiere propuesta de mejora: no.
 
+Prueba real posterior:
+- Fecha: 2026-05-02.
+- Caso: EN-001.
+- Prompt probado: "Estoy con 20% de energia y necesito cerrar una clase manana."
+- Respuesta observada: FIACH reconocio la baja energia, pero genero una clase completa con objetivo, inicio, desarrollo, cierre, ticket de salida, registro para planificacion y version alternativa. Aunque la propuesta fue pedagogicamente coherente, resulto demasiado extensa y estructurada para una energia declarada de 20%.
+- Evaluacion: no aprobado.
+- Friccion: sobreestructura en baja energia. FIACH debe responder con una sola accion simple, lista para usar, sin planificar una clase completa ni agregar multiples componentes.
+- Criterios FIACH afectados: energia docente, ajuste minimo, no aumento de carga docente y claridad aplicable inmediata.
+- Estado: requiere propuesta minima para reforzar respuesta de baja energia.
+
 ### Caso EN-002
 
 ID del caso: EN-002

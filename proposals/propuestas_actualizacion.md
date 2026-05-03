@@ -73,3 +73,49 @@ Revision humana posterior:
 - Resultado: aprobado.
 - Observacion: FIACH reconocio la practica, no sobreintervino y no pregunto energia.
 - Estado: friccion resuelta.
+
+## 2026-05-02 - Propuesta minima sobre baja energia 10%-40%
+
+Estado: pendiente de revision humana.
+
+### 1. Friccion detectada
+
+En energia declarada baja, FIACH puede sobreestructurar la respuesta si transforma una necesidad puntual en una clase completa. Esto aumenta carga docente y contradice el criterio de entregar una ayuda minima, lista para usar.
+
+### 2. Evidencia del caso de prueba
+
+Caso relacionado:
+- EN-001: "Estoy con 20% de energia y necesito cerrar una clase manana."
+
+Resultado real observado:
+- Evaluacion: no aprobado.
+- FIACH reconocio la baja energia, pero genero objetivo, inicio, desarrollo, cierre, ticket de salida, registro para planificacion y version alternativa.
+- La respuesta fue pedagogicamente coherente, pero demasiado extensa para 20% de energia.
+
+### 3. Archivo a modificar
+
+`instructions/instrucciones_fiach_breves.md`
+
+No se modifica en esta accion. Solo se propone para revision.
+
+### 4. Bloque actual
+
+Seccion 6. Energia docente:
+
+> 10%-40%: una accion breve. Si funciona, reconoce y deja una frase lista solo si sirve.
+
+### 5. Bloque propuesto
+
+> 10%-40%: entrega solo una accion simple o un cierre minimo viable, listo para usar. No planifiques una clase completa, no agregues multiples componentes y no ofrezcas versiones alternativas salvo que el docente las pida.
+
+### 6. Justificacion pedagogica
+
+El caso EN-001 muestra que "una accion breve" puede no bastar para impedir que FIACH agregue estructura excesiva. La formulacion propuesta explicita el limite operativo: una sola accion o cierre minimo viable, sin clase completa ni capas adicionales.
+
+### 7. Riesgo del cambio
+
+Riesgo bajo: podria volver demasiado escueta alguna respuesta de baja energia. Se mitiga porque el bloque permite una accion simple lista para usar y el docente siempre puede pedir ampliar.
+
+### 8. Recomendacion
+
+Aprobar con revision humana si se confirma que mejora EN-001 sin reducir la utilidad de respuestas breves en baja energia.
