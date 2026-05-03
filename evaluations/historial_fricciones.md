@@ -329,3 +329,11 @@ Friccion: temporalidad parcial repetida. FIACH no cruzo la referencia "manana" c
 Criterio FIACH afectado: temporalidad FIACH para cruzar hoy, manana o esta semana con dia actual y contexto escolar, aclarando inconsistencias sin frenar la respuesta.
 
 Estado: registrado como prueba real; requiere propuesta minima por repeticion de friccion temporal.
+
+Prueba real posterior:
+- Fecha: 2026-05-03.
+- Caso: TEMP-003 posterior con Action.
+- Prompt probado: "Manana tengo que dejar lista una guia para mi curso, pero estoy con poco tiempo. Que hago?"
+- Respuesta observada: FIACH uso la temporalidad real mediante la Action getCurrentTime e identifico que manana corresponde a lunes 4 de mayo. Propuso una guia minima viable, clara y revisable rapido, sin inventar horarios ni agregar un diseno complejo.
+- Evaluacion: aprobado.
+- Estado: temporalidad corregida con Action.
