@@ -295,3 +295,21 @@ Friccion leve: la respuesta priorizo y redujo carga, pero no activo plenamente l
 Criterio FIACH afectado: temporalidad FIACH para contextualizar, priorizar y reducir carga sin inventar fechas ni horarios.
 
 Estado: registrado como prueba real; mantener monitoreo antes de proponer cambio.
+
+### Caso TEMP-002
+
+ID del caso: TEMP-002
+
+Tipo de registro: correccion de evaluacion posterior.
+
+Prompt probado: no consignado en esta correccion; incluye referencia temporal a "manana".
+
+Evaluacion corregida: aprobado con ajuste menor.
+
+Motivo: FIACH uso "manana" para priorizar y reducir carga, pero no verifico que manana corresponde a domingo. En contexto docente, debio detectar la posible inconsistencia temporal y decir algo como: "Como manana es domingo, asumo que te refieres al lunes o al proximo dia laboral; te dejo una opcion minima igualmente."
+
+Friccion leve: temporalidad parcial. FIACH considera urgencia, pero aun no cruza suficientemente fecha/dia con contexto escolar real.
+
+Criterio FIACH afectado: temporalidad FIACH para contextualizar, priorizar y reducir carga considerando dia actual, calendario y contexto escolar sin inventar fechas.
+
+Estado: actualizado como aprobado con ajuste menor; mantener monitoreo temporal.
