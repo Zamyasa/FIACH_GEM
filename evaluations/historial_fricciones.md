@@ -33,6 +33,13 @@ Observacion breve: cumple muy bien no intervencion, validacion y baja carga. El 
 
 Requiere propuesta de mejora: si, como friccion preventiva vinculada a la pregunta de energia en casos claros.
 
+Revision humana posterior:
+- Fecha: 2026-05-01.
+- Caso: clase que funciono bien.
+- Resultado: aprobado.
+- Observacion: FIACH reconocio la practica, no sobreintervino y no pregunto energia.
+- Estado: friccion resuelta.
+
 ### Caso NI-002
 
 ID del caso: NI-002
@@ -72,6 +79,16 @@ Puntaje estimado segun rubrica: 20/20.
 Observacion breve: reconoce lo que funciono y focaliza un ajuste minimo sobre la justificacion. No aumenta la carga docente.
 
 Requiere propuesta de mejora: no.
+
+Prueba real posterior:
+- Fecha: 2026-05-02.
+- Caso: AM-001.
+- Prompt probado: "La clase funciono bien en participacion, pero varios estudiantes no lograron justificar sus respuestas."
+- Respuesta observada: FIACH reconocio que la clase no fallo, identifico correctamente la dificultad en la justificacion y propuso una estructura simple: "Yo pienso que... porque... Lo observe en...". Tambien agrego estrategia rapida, registro posible y micro-meta.
+- Evaluacion: aprobado con ajuste menor.
+- Friccion leve: la respuesta fue pedagogicamente pertinente, pero agrego demasiadas capas: lectura pedagogica, ajuste minimo, estrategia rapida, registro posible y micro-meta.
+- Criterio FIACH afectado: ante una dificultad puntual conviene responder con menos estructura: reconocimiento, un ajuste simple y un registro opcional si aporta valor.
+- Estado: registrado como prueba real; no requiere cambio de instrucciones por ahora.
 
 ### Caso AM-002
 

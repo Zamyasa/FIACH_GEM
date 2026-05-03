@@ -15,7 +15,7 @@ No aplicar cambios sin aprobacion humana explicita.
 
 ## 2026-05-01 - Propuesta preventiva sobre energia docente
 
-Estado: pendiente de revision humana.
+Estado: aplicada; friccion resuelta en revision humana para caso "clase que funciono bien".
 
 ### 1. Friccion detectada
 
@@ -64,3 +64,12 @@ Riesgo bajo a medio: si se flexibiliza demasiado, la GEM podria omitir la energi
 ### 8. Recomendacion
 
 Ajustar antes de aprobar: validar con respuestas reales o una segunda bateria simulada si esta flexibilizacion mejora NI-001, NI-002 y EN-001 sin debilitar el criterio de energia docente.
+
+### 9. Seguimiento
+
+Revision humana posterior:
+- Fecha: 2026-05-01.
+- Caso: clase que funciono bien.
+- Resultado: aprobado.
+- Observacion: FIACH reconocio la practica, no sobreintervino y no pregunto energia.
+- Estado: friccion resuelta.
