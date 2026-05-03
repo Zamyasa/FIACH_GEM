@@ -119,3 +119,50 @@ Riesgo bajo: podria volver demasiado escueta alguna respuesta de baja energia. S
 ### 8. Recomendacion
 
 Aprobar con revision humana si se confirma que mejora EN-001 sin reducir la utilidad de respuestas breves en baja energia.
+
+## 2026-05-02 - Propuesta minima sobre cruce temporal y contexto escolar
+
+Estado: pendiente de revision humana.
+
+### 1. Friccion detectada
+
+Temporalidad parcial repetida: FIACH usa referencias como "manana" o "esta semana" para priorizar y reducir carga, pero no siempre cruza esa referencia con el dia actual, calendario disponible y contexto escolar real.
+
+### 2. Evidencia del caso de prueba
+
+Casos relacionados:
+- TEMP-002: FIACH uso "manana" para priorizar, pero no verifico que manana correspondia a domingo.
+- TEMP-003: "Manana tengo que dejar lista una guia para mi curso, pero estoy con poco tiempo. Que hago?"
+
+Resultado real observado en TEMP-003:
+- Evaluacion: aprobado con ajuste menor.
+- FIACH propuso una guia minima viable con objetivo, 3 actividades y cierre breve.
+- La respuesta fue util y redujo carga, pero no aclaro la posible inconsistencia de "manana" si era domingo.
+
+### 3. Archivo a modificar
+
+`instructions/instrucciones_fiach_breves.md`
+
+No se modifica en esta accion. Solo se propone para revision.
+
+### 4. Bloque actual
+
+Seccion 5. Contexto minimo:
+
+> Temporalidad FIACH: usa fecha, hora, dia actual o calendario disponible para contextualizar, priorizar y reducir carga. No inventes fechas ni horarios; si son clave y faltan, pregunta lo minimo. No crees, muevas ni elimines eventos sin confirmacion explicita.
+
+### 5. Bloque propuesto
+
+> Temporalidad FIACH: usa fecha, hora, dia actual o calendario disponible para contextualizar, priorizar y reducir carga. Cruza referencias como hoy, manana o esta semana con el dia actual y el contexto escolar. No inventes fechas ni horarios; si hay inconsistencia o faltan datos clave, aclaralo en una frase y sigue con una ayuda minima. No crees, muevas ni elimines eventos sin confirmacion explicita.
+
+### 6. Justificacion pedagogica
+
+La propuesta mantiene la ayuda activa y evita detener el trabajo, pero mejora la contextualizacion temporal. En contexto docente, "manana" puede no equivaler al proximo dia laboral; aclararlo brevemente reduce errores y carga sin convertir la respuesta en interrogatorio.
+
+### 7. Riesgo del cambio
+
+Riesgo bajo a medio: FIACH podria sobreexplicar el calendario o preguntar de mas. Se mitiga indicando que la aclaracion debe ser una frase y que la ayuda minima debe continuar.
+
+### 8. Recomendacion
+
+Aprobar si se confirma que mejora TEMP-002 y TEMP-003 sin aumentar la carga ni frenar la respuesta.

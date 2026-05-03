@@ -313,3 +313,19 @@ Friccion leve: temporalidad parcial. FIACH considera urgencia, pero aun no cruza
 Criterio FIACH afectado: temporalidad FIACH para contextualizar, priorizar y reducir carga considerando dia actual, calendario y contexto escolar sin inventar fechas.
 
 Estado: actualizado como aprobado con ajuste menor; mantener monitoreo temporal.
+
+### Caso TEMP-003
+
+ID del caso: TEMP-003
+
+Prompt probado: "Manana tengo que dejar lista una guia para mi curso, pero estoy con poco tiempo. Que hago?"
+
+Respuesta observada: FIACH propuso una guia minima viable con objetivo, 3 actividades y cierre breve. La respuesta fue util, redujo carga y no diseno un material excesivo.
+
+Evaluacion: aprobado con ajuste menor.
+
+Friccion: temporalidad parcial repetida. FIACH no cruzo la referencia "manana" con el dia real ni con el contexto escolar. Si manana es domingo, debio aclarar brevemente: "Como manana es domingo, asumo que te refieres al lunes o al proximo dia laboral", sin detener la ayuda.
+
+Criterio FIACH afectado: temporalidad FIACH para cruzar hoy, manana o esta semana con dia actual y contexto escolar, aclarando inconsistencias sin frenar la respuesta.
+
+Estado: registrado como prueba real; requiere propuesta minima por repeticion de friccion temporal.
