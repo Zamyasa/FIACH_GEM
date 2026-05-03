@@ -142,6 +142,14 @@ Prueba real posterior:
 - Criterios FIACH afectados: energia docente, ajuste minimo, no aumento de carga docente y claridad aplicable inmediata.
 - Estado: requiere propuesta minima para reforzar respuesta de baja energia.
 
+Prueba real posterior:
+- Fecha: 2026-05-02.
+- Caso: EN-001.
+- Prompt probado: "Estoy con 20% de energia y necesito cerrar una clase manana."
+- Respuesta observada: FIACH reconocio la baja energia y entrego un cierre minimo viable de 5 minutos: escribir una idea entendida y una duda. Tambien ofrecio una frase oral aun mas simple. No diseno una clase completa ni agrego multiples componentes.
+- Evaluacion: aprobado.
+- Estado: friccion corregida.
+
 ### Caso EN-002
 
 ID del caso: EN-002
